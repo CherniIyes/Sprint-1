@@ -2,17 +2,58 @@
 
 // Problem: Write a JavaScript function that declares a variable using var and returns its value.
 
+function A(){
+  var a="abc"
+    return a
+  
+}
+
+
+
+
 // Problem: Create a function that takes two arguments and checks if they are equal. Return true if they are and false if they are not.
 
-// Problem: Implement a function that declares a "constant" variable using var (even though var variables are not constant) and attempts to reassign it. Handle any resulting errors.
+
+
+
+function equality(a,b){
+  if(a===b){
+    return true
+  }
+  return false
+
+}
+
+// Problem: Implement a function that declares a "constant" variable using var (even though var variables are not constant) and attempts to reassign it. Handle any resulting error
+
+
 
 // Problem: Create a function that defines a variable using var within its scope. Try to access the variable outside of the function and explain the result.
+function defin(){
+  var x=10
+}
+
+function glob(){
+a=defin()
+return a
+}
+
+
 
 // Problem: Write a function that takes a variable as an argument and returns its data type.
+
+function dataType(a){
+return typeof(a)
+}
+
+
+
 
 // Conditional Statements:
 
 // Problem: Create a function that takes an age as an argument and returns a message based on whether the person is a child, a teenager, an adult, or a senior citizen.
+
+
 
 // Problem: Write a function that checks if a given number is even or odd and returns an appropriate message.
 
@@ -21,3 +62,4 @@
 // Problem: Write a function that calculates the grade for a given test score. The function should return "A," "B," "C," "D," or "F" based on the score.
 
 // Problem: Create a function that takes a day of the week as an argument and returns whether it's a weekday or a weekend day.
+
